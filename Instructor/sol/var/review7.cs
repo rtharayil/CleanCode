@@ -1,1 +1,0 @@
-var ymdstr = DateTime.UtcNow.ToString("MMMM dd, yyyy");
