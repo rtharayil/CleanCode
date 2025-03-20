@@ -19,11 +19,7 @@ so that I can receive important updates in a way that suits my needs.
    - The system should support sending notifications via **email**, **SMS**, and **push notifications**.
    - New notification channels (e.g., WhatsApp, Slack) can be added in the future without modifying the core `NotificationService`.
 
-2. **Content Customization**:
-   - The content of the notification should be customizable based on the channel.
-     - **Email**: Supports rich text (HTML) and attachments.
-     - **SMS**: Limited to plain text (160 characters).
-     - **Push Notification**: Short text with optional actions or links.
+
 
 3. **Flexibility**:
    - The `NotificationService` should not depend on specific notification channel implementations. Instead, it should depend on abstractions (e.g., interfaces).
