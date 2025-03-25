@@ -1,4 +1,4 @@
-# Clean Code: Naming Variables, Functions, and Classes in C#
+# Clean Code: Naming Variables, Functions, and Classes 
 
 Writing clean code is essential for maintaining readability, scalability, and maintainability of software. One of the most critical aspects of clean code is how we name variables, functions, and classes. In this write-up, we'll explore best practices for naming in C#, along with examples.
 
