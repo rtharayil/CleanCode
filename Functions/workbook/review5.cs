@@ -1,11 +1,16 @@
 public Path TravelToTexas(object vehicle)
 {
+    Path path =null;
+
     if (vehicle.GetType() == typeof(Bicycle))
     {
-        (vehicle as Bicycle).PeddleTo(new Location("texas"));
+        path =(vehicle as Bicycle).PeddleTo(new Location("texas"));
     }
     else if (vehicle.GetType() == typeof(Car))
     {
-        (vehicle as Car).DriveTo(new Location("texas"));
+        path=(vehicle as Car).DriveTo(new Location("texas"));
     }
+
+
+    return path;
 }

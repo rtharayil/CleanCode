@@ -1,7 +1,7 @@
 
-public void ComputeDiscountOnTotalAmount(Order order, decimal discountAmount)  
+public int ComputeDiscountOnTotalAmount(Order order, decimal discountAmount)  
 {  
-    order.total =  order.total - discountAmount
+    order.total =  order.total - discountAmount;
 
     return order.total;
 }  
