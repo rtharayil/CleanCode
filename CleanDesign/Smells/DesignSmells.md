@@ -1,4 +1,4 @@
-Here's a comprehensive guide to design smells in C# with real-world examples for each category:
+
 
 ### 1. **Alternative Classes with Different Interfaces**
 ```csharp
